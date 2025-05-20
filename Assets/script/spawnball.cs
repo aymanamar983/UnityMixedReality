@@ -19,7 +19,7 @@ public class spawnball : MonoBehaviour
    
         GameObject ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
-        rb.velocity = transform.forward * force;
+        rb.linearVelocity = transform.forward * force;
 
     }
 }
