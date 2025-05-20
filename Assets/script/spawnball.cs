@@ -3,7 +3,7 @@ using Oculus;
 public class spawnball : MonoBehaviour
 {
     public GameObject ballPrefab;
-    //public Transform shootingPoint;  // <--- assign this in the inspector
+    public Transform shootingPoint;  // <--- assign this in the inspector
     public float force = 5f;
 
     void Update()
@@ -17,9 +17,9 @@ public class spawnball : MonoBehaviour
     void SpawnBall()
     {
    
-        GameObject ball = Instantiate(ballPrefab, transform.position, Quaternion.identity);
+        GameObject ball = Instantiate(ballPrefab, shootingPoint.position, Quaternion.identity);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
-        rb.linearVelocity = transform.forward * force;
+        rb.linearVelocity = shootingPoint.forward * force;
 
     }
 }
