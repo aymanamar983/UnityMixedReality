@@ -1,0 +1,2 @@
+E:\OneDrive - MSD\Kenzel\Unity Games\Experimental\UnityMixedReality\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+E:\OneDrive - MSD\Kenzel\Unity Games\Experimental\UnityMixedReality\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
