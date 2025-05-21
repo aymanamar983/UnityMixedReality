@@ -21769,6 +21769,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5709745603699594227}
+  - component: {fileID: 5709745603699594228}
   m_Layer: 0
   m_Name: Gun
   m_TagString: Untagged
@@ -21938,6 +21939,28 @@ Transform:
   - {fileID: 925659831808643116}
   m_Father: {fileID: 1729139415}
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!95 &5709745603699594228
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4933350123383851337}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 3095157dec5f3a74da0aafee71f50e3f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!33 &5716365241323478966
 MeshFilter:
   m_ObjectHideFlags: 0
