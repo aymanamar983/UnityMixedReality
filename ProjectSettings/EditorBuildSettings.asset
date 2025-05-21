@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Interaction with MR.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MRGame.unity
+    guid: e9b926284a7d0fa47a0c738cf8bebe43
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bd9f71f066c76b441b31c37f446ddd74, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: e04f7dd50c70aa34d82d3efa5ff254df, type: 2}

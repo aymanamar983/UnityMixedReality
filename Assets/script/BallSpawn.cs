@@ -16,7 +16,7 @@ public class BallSpawn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger))
+        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger))
         {
             shootBall();
         }
@@ -27,9 +27,7 @@ public class BallSpawn : MonoBehaviour
         GameObject ball = Instantiate(Prefab, transform.position, transform.rotation);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
 
-        if (rb != null)
-        {
-            rb.AddForce(transform.forward * shootForce, ForceMode.Impulse);
-        }
+        rb.AddForce(transform.forward * shootForce, ForceMode.Impulse);
+        
     }
 }
