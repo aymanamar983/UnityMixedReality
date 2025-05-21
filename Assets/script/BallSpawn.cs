@@ -7,6 +7,7 @@ public class BallSpawn : MonoBehaviour
 {
     public GameObject Prefab;
     public float shootForce = 5f;
+    public Transform ShootingPoint;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -24,10 +25,10 @@ public class BallSpawn : MonoBehaviour
 
     void shootBall()
     {
-        GameObject ball = Instantiate(Prefab, transform.position, transform.rotation);
+        GameObject ball = Instantiate(Prefab, ShootingPoint.position, ShootingPoint.rotation);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
 
-        rb.AddForce(transform.forward * shootForce, ForceMode.Impulse);
+        rb.AddForce(ShootingPoint.forward * shootForce, ForceMode.Impulse);
         
     }
 }
