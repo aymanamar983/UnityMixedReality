@@ -13900,7 +13900,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ballPrefab: {fileID: 9090151950547782251, guid: 9ad75fb358be41c4e910931008c82a55, type: 3}
-  shootingPoint: {fileID: 844468378}
+  shootingPoint: {fileID: 1255623360}
   maxDistance: 5
   lineShowTimer: 0
   linePrefab: {fileID: 7012022845184712742, guid: 5ed514c16c182ab46a2621e1d2161363, type: 3}
@@ -71662,7 +71662,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &5467140290397539993
 Transform:
   m_ObjectHideFlags: 0
