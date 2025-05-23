@@ -8,12 +8,15 @@ public class BallImpact : MonoBehaviour
     {
         ContactPoint contact = collision.contacts[0];
 
-        
-        if (impactEffect != null)
+        if (collision.gameObject.name.Contains("SceneMesh")) // optional filter
         {
-            Instantiate(impactEffect, contact.point, Quaternion.LookRotation(contact.normal));
+            if (impactEffect != null)
+            {
+                Instantiate(impactEffect, contact.point, Quaternion.LookRotation(contact.normal));
+            }
         }
 
-        Destroy(gameObject); 
+        Destroy(gameObject);
     }
+
 }

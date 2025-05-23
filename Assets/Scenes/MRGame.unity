@@ -9219,7 +9219,7 @@ Transform:
   m_GameObject: {fileID: 901143030}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.0201, z: 0.2155}
+  m_LocalPosition: {x: 0, y: 0.0201, z: 0.2198}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9582,7 +9582,7 @@ GameObject:
   - component: {fileID: 942022237}
   m_Layer: 0
   m_Name: '[BuildingBlock] Effect Mesh'
-  m_TagString: Untagged
+  m_TagString: SceneMesh
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9601,10 +9601,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SpawnOnStart: 1
   MeshMaterial: {fileID: 2100000, guid: 599b01c5f1d17436c89b88cc04257314, type: 2}
-  Colliders: 0
-  CutHoles: 0
+  Colliders: 1
+  CutHoles: -1
   castShadows: 1
-  hideMesh: 0
+  hideMesh: 1
   Layer: 0
   textureCoordinateModes:
   - WallU: 5
